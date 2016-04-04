@@ -1,0 +1,138 @@
+/*
+---------------------------------
+data table 
+---------------------------------
+*/
+
+td {
+    padding: 15px 0 15px 0;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid grey;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+th {
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+
+/*
+---------------------------------
+stats
+---------------------------------
+*/
+
+.numbers {
+    width: 300px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.numbers td {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.stats {
+    font-size: 14px;
+    color: #999;
+}
+
+/*
+---------------------------------
+barchart
+---------------------------------
+*/
+
+.barchart tr, .barchart th {
+    border-bottom: none;
+}
+
+.barchart tr, .barchart th, .barchart td {
+    padding: 2px 0 0 0;
+    vertical-align: middle;
+}
+.barchart div {
+    background-color: #659EDA;
+    color: white;
+    padding: 2px 0 2px 4px;
+}
+
+.barchart th {
+    text-align: right;
+    width: 17%;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+/*
+---------------------------------
+lightbox
+---------------------------------
+*/
+
+.lightbox {
+    background-color: #585858;
+    height: 600px;
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.boxcontent {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+    position: relative;
+}
+
+.btn {
+    background-color: #EA828A;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: -15px 10px 10px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+---------------------------------
+media block
+---------------------------------
+*/
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+.indent60 {
+    margin-left: 60px;
+}
+
+.indent42 {
+    margin-left: 42px;
+}
